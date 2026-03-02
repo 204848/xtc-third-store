@@ -1,0 +1,1 @@
+请把 sample-math 的 26x26 PNG 图标放为 assets/icons/sample-math.png
