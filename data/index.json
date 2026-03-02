@@ -1,10 +1,6 @@
 {
   "version": "1.0",
-<<<<<<< HEAD
-  "generatedAt": "2026-03-02T15:45:54+00:00",
-=======
-  "generatedAt": "2026-03-02T15:26:58+00:00",
->>>>>>> b65d19d6ae94ee7988dbc799939574eb66ebf20f
+  "generatedAt": "2026-03-02T15:50:14+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -33,7 +29,7 @@
           "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/sample-math.png",
           "screenshots": [],
           "rpkFileName": "sample-math-1.0.0.rpk",
-          "packageSizeBytes": 33,
+          "packageSizeBytes": 32,
           "download": {
             "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/games/sample-math/1.0.0/sample-math-1.0.0.rpk",
             "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/games/sample-math/1.0.0/sample-math-1.0.0.rpk",
@@ -70,7 +66,7 @@
           "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/sample-timer.png",
           "screenshots": [],
           "rpkFileName": "sample-timer-1.0.0.rpk",
-          "packageSizeBytes": 33,
+          "packageSizeBytes": 32,
           "download": {
             "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk",
             "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk",
@@ -104,7 +100,7 @@
       "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/sample-math.png",
       "screenshots": [],
       "rpkFileName": "sample-math-1.0.0.rpk",
-      "packageSizeBytes": 33,
+      "packageSizeBytes": 32,
       "download": {
         "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/games/sample-math/1.0.0/sample-math-1.0.0.rpk",
         "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/games/sample-math/1.0.0/sample-math-1.0.0.rpk",
@@ -134,7 +130,7 @@
       "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/sample-timer.png",
       "screenshots": [],
       "rpkFileName": "sample-timer-1.0.0.rpk",
-      "packageSizeBytes": 33,
+      "packageSizeBytes": 32,
       "download": {
         "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk",
         "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk",
