@@ -12,6 +12,5 @@
   "minFirmware": "1.0.0",
   "icon": "assets/icons/sample-timer.png",
   "screenshots": [],
-  "rpkPath": "packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk",
   "updatedAt": "2026-03-02T00:00:00+00:00"
 }

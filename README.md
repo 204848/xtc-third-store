@@ -38,10 +38,13 @@ xtc-third-store-backend/
   "packageName": "com.demo.math",
   "category": "games",
   "versionName": "1.0.0",
-  "versionCode": 1,
-  "rpkPath": "packages/games/sample-math/1.0.0/sample-math-1.0.0.rpk"
+  "versionCode": 1
 }
 ```
+
+`rpkPath` 可选（推荐不写，避免手误）：
+- 若不写，会自动从 `packages/<category>/<appId>/<versionName>/` 下寻找 `.rpk`
+- 该目录仅允许存在 1 个 `.rpk`，否则会报错并阻止生成错误索引
 
 可选字段：
 - `icon`, `screenshots`, `description`, `developer`, `tags`, `minPlatformVersion`, `minFirmware`

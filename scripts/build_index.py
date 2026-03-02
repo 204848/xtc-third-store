@@ -49,6 +49,27 @@ def resolve_media_url(repo: str, branch: str, media_value):
     return media_value
 
 
+def infer_rpk_path(root: Path, category: str, app_id: str, version_name: str) -> str:
+    target_dir = root / "packages" / category / app_id / version_name
+    if not target_dir.exists():
+        raise ValueError(
+            f"missing rpkPath and package dir not found: {target_dir}. "
+            f"Please set rpkPath explicitly or place rpk under packages/{category}/{app_id}/{version_name}/"
+        )
+    rpk_files = sorted(target_dir.glob("*.rpk"))
+    if len(rpk_files) == 1:
+        return str(rpk_files[0].relative_to(root)).replace('\\', '/')
+    if len(rpk_files) == 0:
+        raise ValueError(
+            f"missing rpkPath and no .rpk found in {target_dir}. "
+            f"Please upload rpk or set rpkPath explicitly."
+        )
+    raise ValueError(
+        f"multiple .rpk files found in {target_dir}. "
+        f"Please set rpkPath explicitly to avoid wrong filename mapping."
+    )
+
+
 def load_apps(apps_dir: Path, root: Path):
     apps = []
     for p in sorted(apps_dir.rglob('*.json')):
@@ -62,10 +83,28 @@ def load_apps(apps_dir: Path, root: Path):
             except Exception:
                 data["category"] = "other"
 
-        required = ["appId", "name", "packageName", "versionName", "versionCode", "rpkPath"]
+        required = ["appId", "name", "packageName", "versionName", "versionCode"]
         missing = [k for k in required if k not in data]
         if missing:
             raise ValueError(f"{p}: missing fields {missing}")
+
+        category = data.get("category", "other")
+        if not data.get("rpkPath"):
+            data["rpkPath"] = infer_rpk_path(root, category, data["appId"], str(data["versionName"]))
+
+        rpk_path = root / data["rpkPath"]
+        if not rpk_path.exists():
+            raise ValueError(f"{p}: rpkPath not exists -> {data['rpkPath']}")
+        if rpk_path.suffix.lower() != ".rpk":
+            raise ValueError(f"{p}: rpkPath must end with .rpk -> {data['rpkPath']}")
+
+        if data.get("rpkFileName") and data["rpkFileName"] != rpk_path.name:
+            raise ValueError(
+                f"{p}: rpkFileName({data['rpkFileName']}) not match real file name({rpk_path.name})"
+            )
+
+        data["_rpkFileName"] = rpk_path.name
+        data["_packageSizeBytes"] = rpk_path.stat().st_size
 
         apps.append(data)
     return apps
@@ -90,6 +129,8 @@ def build_index(repo: str, branch: str, apps: list):
             "minFirmware": a.get("minFirmware"),
             "icon": resolve_media_url(repo, branch, a.get("icon")),
             "screenshots": resolve_media_url(repo, branch, a.get("screenshots", [])),
+            "rpkFileName": a.get("rpkFileName", a.get("_rpkFileName")),
+            "packageSizeBytes": a.get("packageSizeBytes", a.get("_packageSizeBytes")),
             "download": {
                 **download_urls,
                 "proxy": to_ghfile_proxy(download_urls["primary"]),
