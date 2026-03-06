@@ -10,6 +10,7 @@ CATEGORY_NAME_MAP = {
     "study": "学习",
     "life": "生活",
     "other": "其他",
+    "practical": "实用",
 }
 
 
