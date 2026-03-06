@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-06T14:02:54+00:00",
+  "generatedAt": "2026-03-06T14:06:41+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -79,43 +79,6 @@
           "updatedAt": "2026-03-06T00:00:00+00:00"
         }
       ]
-    },
-    {
-      "id": "tools",
-      "name": "工具",
-      "count": 1,
-      "apps": [
-        {
-          "appId": "sample-timer",
-          "name": "番茄计时",
-          "packageName": "com.demo.timer",
-          "category": "tools",
-          "versionName": "1.0.0",
-          "versionCode": 1,
-          "description": "专注计时工具示例。",
-          "developer": "Demo Studio",
-          "tags": [
-            "工具",
-            "效率"
-          ],
-          "minPlatformVersion": 1070,
-          "minFirmware": "1.0.0",
-          "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/sample-timer.png",
-          "screenshots": [],
-          "rpkFileName": "sample-timer-1.0.0.rpk",
-          "packageSizeBytes": 32,
-          "download": {
-            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk",
-            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk",
-            "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk"
-          },
-          "meta": {
-            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/tools/sample-timer.json",
-            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/tools/sample-timer.json"
-          },
-          "updatedAt": "2026-03-02T00:00:00+00:00"
-        }
-      ]
     }
   ],
   "apps": [
@@ -178,36 +141,6 @@
         "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/practical/store.json"
       },
       "updatedAt": "2026-03-06T00:00:00+00:00"
-    },
-    {
-      "appId": "sample-timer",
-      "name": "番茄计时",
-      "packageName": "com.demo.timer",
-      "category": "tools",
-      "versionName": "1.0.0",
-      "versionCode": 1,
-      "description": "专注计时工具示例。",
-      "developer": "Demo Studio",
-      "tags": [
-        "工具",
-        "效率"
-      ],
-      "minPlatformVersion": 1070,
-      "minFirmware": "1.0.0",
-      "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/sample-timer.png",
-      "screenshots": [],
-      "rpkFileName": "sample-timer-1.0.0.rpk",
-      "packageSizeBytes": 32,
-      "download": {
-        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk",
-        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk",
-        "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/tools/sample-timer/1.0.0/sample-timer-1.0.0.rpk"
-      },
-      "meta": {
-        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/tools/sample-timer.json",
-        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/tools/sample-timer.json"
-      },
-      "updatedAt": "2026-03-02T00:00:00+00:00"
     }
   ]
 }
