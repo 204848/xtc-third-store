@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-06T11:34:21+00:00",
+  "generatedAt": "2026-03-06T14:02:54+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -40,6 +40,43 @@
             "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/game/wearnote.json"
           },
           "updatedAt": "2026-03-02T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "practical",
+      "name": "practical",
+      "count": 1,
+      "apps": [
+        {
+          "appId": "store",
+          "name": "应用商店",
+          "packageName": "com.xtc.thirdstore.watch",
+          "category": "practical",
+          "versionName": "1.0.0",
+          "versionCode": 1,
+          "description": "store",
+          "developer": "Demo Studio",
+          "tags": [
+            "实用",
+            "商店"
+          ],
+          "minPlatformVersion": 1070,
+          "minFirmware": "1.0.0",
+          "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/store.png",
+          "screenshots": [],
+          "rpkFileName": "store.rpk",
+          "packageSizeBytes": 21542,
+          "download": {
+            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.0/store.rpk",
+            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.0/store.rpk",
+            "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.0/store.rpk"
+          },
+          "meta": {
+            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/store.json",
+            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/practical/store.json"
+          },
+          "updatedAt": "2026-03-06T00:00:00+00:00"
         }
       ]
     },
@@ -111,6 +148,36 @@
         "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/game/wearnote.json"
       },
       "updatedAt": "2026-03-02T00:00:00+00:00"
+    },
+    {
+      "appId": "store",
+      "name": "应用商店",
+      "packageName": "com.xtc.thirdstore.watch",
+      "category": "practical",
+      "versionName": "1.0.0",
+      "versionCode": 1,
+      "description": "store",
+      "developer": "Demo Studio",
+      "tags": [
+        "实用",
+        "商店"
+      ],
+      "minPlatformVersion": 1070,
+      "minFirmware": "1.0.0",
+      "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/store.png",
+      "screenshots": [],
+      "rpkFileName": "store.rpk",
+      "packageSizeBytes": 21542,
+      "download": {
+        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.0/store.rpk",
+        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.0/store.rpk",
+        "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.0/store.rpk"
+      },
+      "meta": {
+        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/store.json",
+        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/practical/store.json"
+      },
+      "updatedAt": "2026-03-06T00:00:00+00:00"
     },
     {
       "appId": "sample-timer",
