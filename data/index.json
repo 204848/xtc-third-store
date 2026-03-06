@@ -1,11 +1,48 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-06T11:30:29+00:00",
+  "generatedAt": "2026-03-06T11:34:21+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
   },
   "categories": [
+    {
+      "id": "games",
+      "name": "游戏",
+      "count": 1,
+      "apps": [
+        {
+          "appId": "wearnote",
+          "name": "wearnote",
+          "packageName": "com.renben.watch",
+          "category": "games",
+          "versionName": "1.0.0",
+          "versionCode": 1,
+          "description": "wearnote",
+          "developer": "Demo Studio",
+          "tags": [
+            "数学",
+            "存储"
+          ],
+          "minPlatformVersion": 1070,
+          "minFirmware": "1.0.0",
+          "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/sample-math.png",
+          "screenshots": [],
+          "rpkFileName": "wearnote.rpk",
+          "packageSizeBytes": 17687,
+          "download": {
+            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/games/wearnote/1.0.0/wearnote.rpk",
+            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/games/wearnote/1.0.0/wearnote.rpk",
+            "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/games/wearnote/1.0.0/wearnote.rpk"
+          },
+          "meta": {
+            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/game/wearnote.json",
+            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/game/wearnote.json"
+          },
+          "updatedAt": "2026-03-02T00:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "tools",
       "name": "工具",
@@ -45,6 +82,36 @@
     }
   ],
   "apps": [
+    {
+      "appId": "wearnote",
+      "name": "wearnote",
+      "packageName": "com.renben.watch",
+      "category": "games",
+      "versionName": "1.0.0",
+      "versionCode": 1,
+      "description": "wearnote",
+      "developer": "Demo Studio",
+      "tags": [
+        "数学",
+        "存储"
+      ],
+      "minPlatformVersion": 1070,
+      "minFirmware": "1.0.0",
+      "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/sample-math.png",
+      "screenshots": [],
+      "rpkFileName": "wearnote.rpk",
+      "packageSizeBytes": 17687,
+      "download": {
+        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/games/wearnote/1.0.0/wearnote.rpk",
+        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/games/wearnote/1.0.0/wearnote.rpk",
+        "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/games/wearnote/1.0.0/wearnote.rpk"
+      },
+      "meta": {
+        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/game/wearnote.json",
+        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/game/wearnote.json"
+      },
+      "updatedAt": "2026-03-02T00:00:00+00:00"
+    },
     {
       "appId": "sample-timer",
       "name": "番茄计时",
