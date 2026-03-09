@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-09T17:20:51+00:00",
+  "generatedAt": "2026-03-09T17:22:14+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -83,7 +83,7 @@
           "name": "应用商店",
           "packageName": "com.xtc.thirdstore.watch",
           "category": "practical",
-          "versionName": "1.0.0",
+          "versionName": "1.0.1",
           "versionCode": 1,
           "description": "store",
           "developer": "Demo Studio",
@@ -96,11 +96,11 @@
           "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/store.png",
           "screenshots": [],
           "rpkFileName": "store.rpk",
-          "packageSizeBytes": 18770,
+          "packageSizeBytes": 19952,
           "download": {
-            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.0/store.rpk",
-            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.0/store.rpk",
-            "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.0/store.rpk"
+            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.1/store.rpk",
+            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.1/store.rpk",
+            "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.1/store.rpk"
           },
           "meta": {
             "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/store.json",
@@ -177,7 +177,7 @@
       "name": "应用商店",
       "packageName": "com.xtc.thirdstore.watch",
       "category": "practical",
-      "versionName": "1.0.0",
+      "versionName": "1.0.1",
       "versionCode": 1,
       "description": "store",
       "developer": "Demo Studio",
@@ -190,11 +190,11 @@
       "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/store.png",
       "screenshots": [],
       "rpkFileName": "store.rpk",
-      "packageSizeBytes": 18770,
+      "packageSizeBytes": 19952,
       "download": {
-        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.0/store.rpk",
-        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.0/store.rpk",
-        "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.0/store.rpk"
+        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.1/store.rpk",
+        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.1/store.rpk",
+        "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.1/store.rpk"
       },
       "meta": {
         "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/store.json",
