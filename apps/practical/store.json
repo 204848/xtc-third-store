@@ -1,9 +1,9 @@
 {
   "appId": "store",
-  "name": "应用商店",
+  "name": "应用商店1",
   "packageName": "com.xtc.thirdstore.watch",
   "category": "practical",
-  "versionName": "1.0.1",
+  "versionName": "1.0.2",
   "versionCode": 1,
   "description": "store",
   "developer": "Demo Studio",
