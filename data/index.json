@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-13T16:02:48+00:00",
+  "generatedAt": "2026-03-13T16:04:47+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -80,10 +80,10 @@
         },
         {
           "appId": "store",
-          "name": "应用商店",
+          "name": "应用商店1",
           "packageName": "com.xtc.thirdstore.watch",
           "category": "practical",
-          "versionName": "1.0.1",
+          "versionName": "1.0.2",
           "versionCode": 1,
           "description": "store",
           "developer": "Demo Studio",
@@ -98,9 +98,9 @@
           "rpkFileName": "store.rpk",
           "packageSizeBytes": 19952,
           "download": {
-            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.1/store.rpk",
-            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.1/store.rpk",
-            "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.1/store.rpk"
+            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.2/store.rpk",
+            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.2/store.rpk",
+            "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.2/store.rpk"
           },
           "meta": {
             "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/store.json",
@@ -174,10 +174,10 @@
     },
     {
       "appId": "store",
-      "name": "应用商店",
+      "name": "应用商店1",
       "packageName": "com.xtc.thirdstore.watch",
       "category": "practical",
-      "versionName": "1.0.1",
+      "versionName": "1.0.2",
       "versionCode": 1,
       "description": "store",
       "developer": "Demo Studio",
@@ -192,9 +192,9 @@
       "rpkFileName": "store.rpk",
       "packageSizeBytes": 19952,
       "download": {
-        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.1/store.rpk",
-        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.1/store.rpk",
-        "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.1/store.rpk"
+        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.2/store.rpk",
+        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.2/store.rpk",
+        "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.2/store.rpk"
       },
       "meta": {
         "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/store.json",
