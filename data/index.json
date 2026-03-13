@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-09T17:22:14+00:00",
+  "generatedAt": "2026-03-13T16:02:48+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -50,10 +50,10 @@
       "apps": [
         {
           "appId": "AI",
-          "name": "AI聊天1",
+          "name": "AI聊天",
           "packageName": "com.xtc.aiassistant",
           "category": "practical",
-          "versionName": "1.0.1",
+          "versionName": "1.0.2",
           "versionCode": 1,
           "description": "AI",
           "developer": "Demo Studio",
@@ -66,11 +66,11 @@
           "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/AI.png",
           "screenshots": [],
           "rpkFileName": "AI.rpk",
-          "packageSizeBytes": 57466,
+          "packageSizeBytes": 57598,
           "download": {
-            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/AI/1.0.1/AI.rpk",
-            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/AI/1.0.1/AI.rpk",
-            "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/AI/1.0.1/AI.rpk"
+            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/AI/1.0.2/AI.rpk",
+            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/AI/1.0.2/AI.rpk",
+            "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/AI/1.0.2/AI.rpk"
           },
           "meta": {
             "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/AI.json",
@@ -144,10 +144,10 @@
     },
     {
       "appId": "AI",
-      "name": "AI聊天1",
+      "name": "AI聊天",
       "packageName": "com.xtc.aiassistant",
       "category": "practical",
-      "versionName": "1.0.1",
+      "versionName": "1.0.2",
       "versionCode": 1,
       "description": "AI",
       "developer": "Demo Studio",
@@ -160,11 +160,11 @@
       "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/AI.png",
       "screenshots": [],
       "rpkFileName": "AI.rpk",
-      "packageSizeBytes": 57466,
+      "packageSizeBytes": 57598,
       "download": {
-        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/AI/1.0.1/AI.rpk",
-        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/AI/1.0.1/AI.rpk",
-        "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/AI/1.0.1/AI.rpk"
+        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/AI/1.0.2/AI.rpk",
+        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/AI/1.0.2/AI.rpk",
+        "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/AI/1.0.2/AI.rpk"
       },
       "meta": {
         "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/AI.json",
