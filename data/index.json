@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-13T21:23:39+00:00",
+  "generatedAt": "2026-03-14T12:28:55+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -46,7 +46,7 @@
     {
       "id": "practical",
       "name": "实用",
-      "count": 2,
+      "count": 3,
       "apps": [
         {
           "appId": "AI",
@@ -75,6 +75,36 @@
           "meta": {
             "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/AI.json",
             "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/practical/AI.json"
+          },
+          "updatedAt": "2026-03-07T00:00:00+00:00"
+        },
+        {
+          "appId": "test",
+          "name": "test",
+          "packageName": "com.xtc.aiassistant",
+          "category": "practical",
+          "versionName": "1.0.0",
+          "versionCode": 1,
+          "description": "AI",
+          "developer": "Demo Studio",
+          "tags": [
+            "AI",
+            "对话"
+          ],
+          "minPlatformVersion": 1070,
+          "minFirmware": "1.0.0",
+          "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/AI.png",
+          "screenshots": [],
+          "rpkFileName": "test.rpk",
+          "packageSizeBytes": 17308,
+          "download": {
+            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/test/1.0.0/test.rpk",
+            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/test/1.0.0/test.rpk",
+            "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/test/1.0.0/test.rpk"
+          },
+          "meta": {
+            "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/test.json",
+            "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/practical/test.json"
           },
           "updatedAt": "2026-03-07T00:00:00+00:00"
         },
@@ -169,6 +199,36 @@
       "meta": {
         "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/AI.json",
         "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/practical/AI.json"
+      },
+      "updatedAt": "2026-03-07T00:00:00+00:00"
+    },
+    {
+      "appId": "test",
+      "name": "test",
+      "packageName": "com.xtc.aiassistant",
+      "category": "practical",
+      "versionName": "1.0.0",
+      "versionCode": 1,
+      "description": "AI",
+      "developer": "Demo Studio",
+      "tags": [
+        "AI",
+        "对话"
+      ],
+      "minPlatformVersion": 1070,
+      "minFirmware": "1.0.0",
+      "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/AI.png",
+      "screenshots": [],
+      "rpkFileName": "test.rpk",
+      "packageSizeBytes": 17308,
+      "download": {
+        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/test/1.0.0/test.rpk",
+        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/test/1.0.0/test.rpk",
+        "proxy": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/test/1.0.0/test.rpk"
+      },
+      "meta": {
+        "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/apps/practical/test.json",
+        "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/apps/practical/test.json"
       },
       "updatedAt": "2026-03-07T00:00:00+00:00"
     },
