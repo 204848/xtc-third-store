@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-15T00:55:11+00:00",
+  "generatedAt": "2026-03-15T01:06:32+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -66,7 +66,7 @@
           "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/AI.png",
           "screenshots": [],
           "rpkFileName": "AI.rpk",
-          "packageSizeBytes": 56419,
+          "packageSizeBytes": 55971,
           "download": {
             "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/AI/1.0.2/AI.rpk",
             "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/AI/1.0.2/AI.rpk",
@@ -190,7 +190,7 @@
       "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/AI.png",
       "screenshots": [],
       "rpkFileName": "AI.rpk",
-      "packageSizeBytes": 56419,
+      "packageSizeBytes": 55971,
       "download": {
         "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/AI/1.0.2/AI.rpk",
         "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/AI/1.0.2/AI.rpk",
