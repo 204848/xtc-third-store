@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-15T21:29:10+00:00",
+  "generatedAt": "2026-03-15T21:29:32+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -110,7 +110,7 @@
         },
         {
           "appId": "store",
-          "name": "应用商店1",
+          "name": "应用商店6",
           "packageName": "com.xtc.thirdstore.watch",
           "category": "practical",
           "versionName": "1.0.2",
@@ -234,7 +234,7 @@
     },
     {
       "appId": "store",
-      "name": "应用商店1",
+      "name": "应用商店6",
       "packageName": "com.xtc.thirdstore.watch",
       "category": "practical",
       "versionName": "1.0.2",
