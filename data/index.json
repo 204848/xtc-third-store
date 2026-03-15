@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-15T01:31:47+00:00",
+  "generatedAt": "2026-03-15T21:29:10+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -126,7 +126,7 @@
           "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/store.png",
           "screenshots": [],
           "rpkFileName": "store.rpk",
-          "packageSizeBytes": 19952,
+          "packageSizeBytes": 20006,
           "download": {
             "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.2/store.rpk",
             "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.2/store.rpk",
@@ -250,7 +250,7 @@
       "icon": "https://raw.githubusercontent.com/204848/xtc-third-store/main/assets/icons/store.png",
       "screenshots": [],
       "rpkFileName": "store.rpk",
-      "packageSizeBytes": 19952,
+      "packageSizeBytes": 20006,
       "download": {
         "primary": "https://raw.githubusercontent.com/204848/xtc-third-store/main/packages/practical/store/1.0.2/store.rpk",
         "mirror": "https://fastly.jsdelivr.net/gh/204848/xtc-third-store@main/packages/practical/store/1.0.2/store.rpk",
