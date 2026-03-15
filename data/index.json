@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-15T00:54:49+00:00",
+  "generatedAt": "2026-03-15T00:55:11+00:00",
   "repo": {
     "id": "204848/xtc-third-store",
     "branch": "main"
@@ -50,7 +50,7 @@
       "apps": [
         {
           "appId": "AI",
-          "name": "AI聊天75",
+          "name": "AI聊天35",
           "packageName": "com.xtc.aiassistant",
           "category": "practical",
           "versionName": "1.0.2",
@@ -174,7 +174,7 @@
     },
     {
       "appId": "AI",
-      "name": "AI聊天75",
+      "name": "AI聊天35",
       "packageName": "com.xtc.aiassistant",
       "category": "practical",
       "versionName": "1.0.2",
